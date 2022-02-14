@@ -1,0 +1,40 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage[utf8]{inputenc} %Linux
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\fontfamily{phv}\selectfont
+\usepackage{geometry}
+\usepackage{graphicx, epsfig}
+\usepackage{tikz}
+\usepackage{pgf}
+\geometry{tmargin=25mm,bmargin=25mm,lmargin=10mm,rmargin=10mm} % page layout, definition of margins etc
+\usepackage[ngerman]{babel} %Language, contains hyphenation etc (here: german)
+%\usepackage[]{hyphsubst} % deutsche Silbentrennung
+\usepackage[T1]{fontenc}
+\addtokomafont{sectionentry}{\normalfont} 
+\usepackage{setspace} %set linespacing (\onehalfspacing)
+\usepackage{color}
+\usepackage{array} %Some table-stuff
+\usepackage{booktabs} %Nice tables...
+\usepackage{longtable}
+\usepackage{dcolumn}
+\usepackage{textcomp}
+\setkomafont{section}{\Huge} 
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+%\automark{section}
+\chead{}
+
+\ihead{}
+\setheadsepline{0.1pt}
+
+\setlength{\headsep}{2cm}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,compress]{natbib}% Zitate mit Bindestrich [1-3] statt [1,2,3]
+\setcounter{tocdepth}{1} %Definiert, was in das Inhaltsverzeichnis kommt
+%\usepackage[numbib,nottoc]{tocbibind}
+
+\begin{document}
+\input{uebersicht}
+
+\end{document}
