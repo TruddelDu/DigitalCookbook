@@ -1,6 +1,8 @@
 # DigitalCookbook
 Digitalizing a cookbook written in Latex to fill a mySQL database in a first step. This database is planned to be used for a private website or App to have easier access to our most favorite recipes. 
 
+This database is planned to allow functionalities such as: adapting the amounts of ingredients according to portions and finding recipes based on tags (e.g. 'vegetarian', 'quick').
+
 ## Entity Relationship Diagram of the database 
 ![EntityRelationshipDiagram](https://user-images.githubusercontent.com/68091502/153875215-67846e8f-ea13-4064-b83e-6acd4cbac6b3.jpg)
 
