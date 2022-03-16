@@ -15,3 +15,4 @@ The ingredient amounts are saved for just one portion, which should simplify the
   - matplotlib 3.5.0
   - numpy 1.21.5
   - pandas 1.3.5
+  - sqlalchemy 1.4.27
