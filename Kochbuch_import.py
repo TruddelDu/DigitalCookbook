@@ -63,13 +63,11 @@ def main():
     ### Connect to MariaDB and make tables
     logger.info('Starting connection with MariaDB')
     
-    # Credentials to database connection
+    # Credentials for database connection
     hostname, dbname, uname, pwd = get_credentials()
 
     engine = sqlalchemy.create_engine("mariadb+mariadbconnector://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
-
-    # Base.metadata.create_all(engine)
 
     # Convert dataframe to sql table                                   
     recipes.to_sql('recipes', engine, if_exists='fail', index=True, index_label='ID', 
