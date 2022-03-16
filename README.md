@@ -1,5 +1,5 @@
 # DigitalCookbook
-Digitalizing a cookbook written in Latex to fill a mySQL database in a first step. This database is planned to be used for a private website or App to have easier access to our most favorite recipes. 
+Digitalizing a cookbook written in Latex to fill a MariaDB database in a first step. This database is planned to be used for a private website or App to have easier access to our most favorite recipes. 
 
 This database is planned to allow functionalities such as: adapting the amounts of ingredients according to portions and finding recipes based on tags (e.g. 'vegetarian', 'quick').
 
